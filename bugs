@@ -1,0 +1,19 @@
+* Need to include description field for roadmap (not for each topic let it be default) for overall description or like outcome of the roadmap
+
+* Grab the overall description from gemini along with contents
+
+* Persist the user profile (information).
+
+
+PAGES =>
+
+1. Roadmap learning interface
+    -> Detailed view of a Roadmap
+    -> Dropdown option to view a topic in detail
+    -> Generate quiz option for each topic at the end.
+    -> Open quiz page/component to record the progress
+
+2. User profile/settings
+    -> Enable theme switching
+    -> Allow to customize the profile (upload custom profile picture)
+    -> Change credientials like password, first name, last name.

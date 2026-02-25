@@ -1,0 +1,189 @@
+[
+    {
+        "title": "Deep Dive into IA32 Protected Mode Architecture",
+        "status": "in_progress",
+        "resources": [
+            {
+                "url": "https://www.youtube.com/results?search_query=IA32+protected+mode+rings+privilege+levels",
+                "type": "video",
+                "title": "IA32 protected mode rings video"
+            },
+            {
+                "url": "https://www.google.com/search?q=Intel+IA32+architecture+manual+protected+mode+segmentation",
+                "type": "article",
+                "title": "Intel IA32 architecture documentation protected mode"
+            }
+        ],
+        "description": "This step covers the advanced features of IA32's protected mode, focusing on privilege levels (rings), segment selectors, and descriptors. You will understand how the CPU enforces memory protection and access control, laying the groundwork for OS development and security analysis."
+    },
+    {
+        "title": "Advanced Memory Management: Segmentation and Paging",
+        "status": "in_progress",
+        "resources": [
+            {
+                "url": "https://www.youtube.com/results?search_query=IA32+paging+virtual+memory+explained",
+                "type": "video",
+                "title": "IA32 paging virtual memory explained"
+            },
+            {
+                "url": "https://www.google.com/search?q=IA32+segmentation+and+paging+advanced+concepts",
+                "type": "article",
+                "title": "IA32 segmentation and paging deep dive"
+            }
+        ],
+        "description": "Explore the sophisticated mechanisms of segmentation and paging, including Global Descriptor Tables (GDT), Local Descriptor Tables (LDT), and Page Tables. This section will clarify how virtual addresses are translated to physical addresses and how memory protection is implemented at a granular level."
+    },
+    {
+        "title": "Interrupts, Exceptions, and System Calls",
+        "status": "in_progress",
+        "resources": [
+            {
+                "url": "https://www.youtube.com/results?search_query=IA32+interrupt+descriptor+table+system+calls",
+                "type": "video",
+                "title": "IA32 interrupt descriptor table system calls"
+            },
+            {
+                "url": "https://www.google.com/search?q=IA32+exceptions+and+interrupt+handling+kernel",
+                "type": "article",
+                "title": "IA32 exceptions and interrupt handling"
+            }
+        ],
+        "description": "Understand the full spectrum of interrupt handling (hardware and software) and exception processing in IA32, utilizing the Interrupt Descriptor Table (IDT). You will learn how the operating system intercepts events and manages transitions between user and kernel space through system calls."
+    },
+    {
+        "title": "Advanced Instruction Sets: SIMD, SSE, and AVX",
+        "status": "in_progress",
+        "resources": [
+            {
+                "url": "https://www.youtube.com/results?search_query=IA32+SSE+AVX+programming+tutorial",
+                "type": "video",
+                "title": "IA32 SSE AVX programming tutorial"
+            },
+            {
+                "url": "https://www.google.com/search?q=Optimizing+with+SIMD+instructions+IA32+assembly",
+                "type": "article",
+                "title": "Optimizing with SIMD instructions IA32"
+            }
+        ],
+        "description": "Dive into Single Instruction, Multiple Data (SIMD) extensions like SSE and AVX, crucial for high-performance computing and multimedia processing. You will learn how to leverage these instructions to perform parallel operations on large data sets, significantly boosting application speed."
+    },
+    {
+        "title": "CPU Cache Coherency and Pipeline Optimization",
+        "status": "in_progress",
+        "resources": [
+            {
+                "url": "https://www.youtube.com/results?search_query=CPU+cache+coherency+IA32+performance",
+                "type": "video",
+                "title": "CPU cache coherency IA32 performance"
+            },
+            {
+                "url": "https://www.google.com/search?q=IA32+pipeline+optimization+techniques+assembly",
+                "type": "article",
+                "title": "IA32 pipeline optimization techniques"
+            }
+        ],
+        "description": "Explore the complex world of CPU caches (L1, L2, L3) and their impact on performance. This step covers cache coherency protocols, branch prediction, and pipeline stalls, teaching you how to write cache-friendly assembly code for maximum efficiency."
+    },
+    {
+        "title": "IA32 Binary Exploitation Fundamentals",
+        "status": "in_progress",
+        "resources": [
+            {
+                "url": "https://www.youtube.com/results?search_query=IA32+buffer+overflow+exploitation+tutorial",
+                "type": "video",
+                "title": "IA32 buffer overflow exploitation tutorial"
+            },
+            {
+                "url": "https://www.google.com/search?q=Return+Oriented+Programming+(ROP)+IA32+explained",
+                "type": "article",
+                "title": "Return Oriented Programming (ROP) IA32 explained"
+            }
+        ],
+        "description": "Understand common vulnerabilities in IA32 binaries, such as buffer overflows, format string bugs, and return-oriented programming (ROP). This module focuses on analyzing disassembled code to identify exploitable flaws and constructing proof-of-concept exploits."
+    },
+    {
+        "title": "Defensive Assembly and Exploit Mitigations",
+        "status": "in_progress",
+        "resources": [
+            {
+                "url": "https://www.youtube.com/results?search_query=IA32+exploit+mitigations+DEP+ASLR",
+                "type": "video",
+                "title": "IA32 exploit mitigations DEP ASLR"
+            },
+            {
+                "url": "https://www.google.com/search?q=Stack+canaries+and+RELRO+IA32+security+assembly",
+                "type": "article",
+                "title": "Stack canaries and RELRO IA32 security"
+            }
+        ],
+        "description": "Learn about various exploit mitigation techniques like NX bit (DEP), ASLR, Stack Canaries, and RELRO, and how they challenge traditional exploitation methods. You will explore how these protections work at the assembly level and how to write more secure low-level code."
+    },
+    {
+        "title": "Linkers, Loaders, and Dynamic Linking in IA32",
+        "status": "in_progress",
+        "resources": [
+            {
+                "url": "https://www.youtube.com/results?search_query=IA32+dynamic+linking+PLT+GOT+explained",
+                "type": "video",
+                "title": "IA32 dynamic linking PLT GOT explained"
+            },
+            {
+                "url": "https://www.google.com/search?q=IA32+linker+loader+process+deep+dive+assembly",
+                "type": "article",
+                "title": "IA32 linker loader process deep dive"
+            }
+        ],
+        "description": "Investigate the process by which object files are combined into executables and loaded into memory. This includes understanding relocation tables, symbol resolution, and the mechanisms behind dynamic linking (PLT/GOT) and its implications for program execution and security."
+    },
+    {
+        "title": "Compiler Backend and IA32 ABI Analysis",
+        "status": "in_progress",
+        "resources": [
+            {
+                "url": "https://www.youtube.com/results?search_query=IA32+calling+conventions+ABI+assembly",
+                "type": "video",
+                "title": "IA32 calling conventions ABI assembly"
+            },
+            {
+                "url": "https://www.google.com/search?q=Compiler+backend+IA32+code+generation+assembly",
+                "type": "article",
+                "title": "Compiler backend IA32 code generation"
+            }
+        ],
+        "description": "Examine how high-level language constructs are translated into IA32 assembly by compilers, focusing on calling conventions (cdecl, stdcall, fastcall), stack frame management, and register usage. This knowledge is critical for reverse engineering and optimizing compiler output."
+    },
+    {
+        "title": "Concurrency Primitives and Multithreading in IA32",
+        "status": "in_progress",
+        "resources": [
+            {
+                "url": "https://www.youtube.com/results?search_query=IA32+atomic+operations+multithreading",
+                "type": "video",
+                "title": "IA32 atomic operations multithreading"
+            },
+            {
+                "url": "https://www.google.com/search?q=Implementing+mutexes+in+IA32+assembly",
+                "type": "article",
+                "title": "Implementing mutexes in IA32 assembly"
+            }
+        ],
+        "description": "Explore the low-level implementation of concurrency primitives, including atomic operations (e.g., LOCK prefix, CMPXCHG), mutexes, and semaphores using IA32 instructions. This section prepares you to understand and implement synchronization mechanisms in multithreaded environments."
+    },
+    {
+        "title": "Virtualization Extensions (Intel VT-x) and Hypervisors",
+        "status": "in_progress",
+        "resources": [
+            {
+                "url": "https://www.youtube.com/results?search_query=Intel+VT-x+virtualization+explained",
+                "type": "video",
+                "title": "Intel VT-x virtualization explained"
+            },
+            {
+                "url": "https://www.google.com/search?q=IA32+hypervisor+development+concepts+VT-x",
+                "type": "article",
+                "title": "IA32 hypervisor development concepts"
+            }
+        ],
+        "description": "Gain insight into Intel's virtualization technology (VT-x) and its role in modern hypervisors. Understand how hardware-assisted virtualization allows multiple operating systems to run efficiently on a single machine, including concepts like VMX root/non-root operations."
+    }
+]
