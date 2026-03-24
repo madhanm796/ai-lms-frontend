@@ -17,4 +17,4 @@ function GoogleOAuth({title, onClick}) {
   )
 }
 
-export default GoogleOAuth
+export default GoogleOAuth;

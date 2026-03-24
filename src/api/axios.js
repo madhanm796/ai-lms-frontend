@@ -1,7 +1,9 @@
 import axios from 'axios';
 
+// API CONNECT
+
 const api = axios.create({
-  baseURL: 'http://ai-lms.backend:8000/api/v1', 
+  baseURL: 'http://10.83.53.159:8000/api/v1', 
     headers: {
     'Content-Type': 'application/json',
   },

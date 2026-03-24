@@ -304,7 +304,7 @@ const Profile = () => {
               </div>
 
               {/* Danger Zone */}
-              <div className="bg-red-50 rounded-3xl p-8 border border-red-100">
+              {/* <div className="bg-red-50 rounded-3xl p-8 border border-red-100">
                 <div className="flex items-start gap-4">
                   <div className="bg-red-100 p-3 rounded-full">
                     <AlertTriangle className="w-6 h-6 text-red-600" />
@@ -320,7 +320,7 @@ const Profile = () => {
                     </button>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
             </div>
           )}

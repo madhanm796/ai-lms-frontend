@@ -37,6 +37,7 @@ const Login = () => {
         const { access_token } = responseData;
         login({email: email}, access_token); 
         
+        // JWT - JSON Web Token
         
         toast.success("Welcome back!");
         const userData = await authService.getCurrentUser();
@@ -50,10 +51,6 @@ const Login = () => {
     } finally {
         setIsLoading(false);
     }
-  };
-
-  const handleGoogleOAuth = () => {
-    window.location.href = "http://192.168.0.119:8000/api/v1/auth/google/login";
   };
 
   return (
@@ -137,17 +134,17 @@ const Login = () => {
             <ButtonWithText text={isLoading ? 'Signing In...' : 'Sign In'} isLoading={isLoading}></ButtonWithText>
 
             {/* Divider */}
-            <div className="relative flex items-center py-4">
+            {/* <div className="relative flex items-center py-4">
               <div className="grow border-t border-gray-100"></div>
               <span className="shrink mx-4 text-xs font-semibold text-purple-400 uppercase tracking-widest">OR</span>
               <div className="grow border-t border-gray-100"></div>
-            </div>
+            </div> */}
 
             {/* Google Login Button */}
-            <GoogleOAuth 
+            {/* <GoogleOAuth 
                 title={'Sign In with Google'} 
                 onClick={handleGoogleOAuth} 
-            />
+            /> */}
           </form>
 
           {/* Footer */}

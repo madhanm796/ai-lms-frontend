@@ -191,14 +191,14 @@ const Signup = () => {
                         </ButtonWithText>
 
                         {/* Divider */}
-                        <div className="relative flex items-center py-2">
+                        {/* <div className="relative flex items-center py-2">
                             <div className="grow border-t border-gray-100"></div>
                             <span className="shrink mx-4 text-xs font-bold text-purple-400 uppercase tracking-widest">OR</span>
                             <div className="grow border-t border-gray-100"></div>
-                        </div>
+                        </div> */}
 
                         {/* Google Signup Button */}
-                        <GoogleOAuth title={'Sign Up with Google'} onClick={() => {}}></GoogleOAuth>
+                        {/* <GoogleOAuth title={'Sign Up with Google'} onClick={() => {}}></GoogleOAuth> */}
                     </form>
 
                     {/* Footer */}
